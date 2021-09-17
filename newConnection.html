@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>New Booking</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html">
+        <img src="logo.jpg" alt="Grand Hotels" />
+      </a>
+      <div class="branding">
+        <h1>Grand Hotels</h1>
+        <h2>Luxury living, Redefined</h2>
+      </div>
+      <div class="navigationglobal">
+        <ul>
+          <li><a href="newConnection.html">New Booking</a></li>
+          <li><a href="index.html">Login</a></li>
+          <li><a href="index.html">Signup</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pagebody">
+      <div class="body">
+        <h2>New Booking</h2>
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <th class="fieldname"></th>
+                <th class="fieldvalue"></th>
+              </tr>
+            </thead>
+            <tbody class="form">
+              <tr>
+                <td>
+                  <label for="topic">Topic: </label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="topic"
+                    name="topic"
+                    id="topic"
+                    required
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="title">Title: </label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="title"
+                    name="title"
+                    id="title"
+                    required
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="host">Host: </label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="host"
+                    name="host"
+                    id="host"
+                    required
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="details">Details: </label>
+                </td>
+                <td>
+                  <textarea
+                    name="details"
+                    id="details"
+                    cols="30"
+                    rows="3"
+                    placeholder="details"
+                  ></textarea>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="where">Where: </label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="location"
+                    name="where"
+                    id="where"
+                    required
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="when">When: </label>
+                </td>
+                <td>
+                  <input type="date" name="when" id="when" required />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="start">Start: </label>
+                </td>
+                <td>
+                  <input type="time" name="start" id="start" required />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="end">End: </label>
+                </td>
+                <td>
+                  <input type="time" name="end" id="end" required />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <label for="imageurl">ImageURL: </label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    placeholder="imageURL"
+                    name="imageurl"
+                    id="imageurl"
+                    required
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- <hr />
+          <p>
+            By creating an account you agree to our
+            <a href="#">Terms & Privacy</a>.
+          </p> -->
+          <!-- <button type="submit" class="registerbtn">
+            <a href="index.html">Register</a>
+          </button> -->
+          <form action="index.html" class="registerbtn">
+            <input type="submit" value="Register" />
+          </form>
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+
+        <!-- <div class="container signin"></div> -->
+      </div>
+    </div>
+    <footer>
+      <div class="leftify">
+        <ul>
+          <li><a href="index.html">&#169; Grand Hotels</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Connect</a></li>
+        </ul>
+      </div>
+      <div class="rightify">
+        <ul>
+          <li><a href="index.html">Facebook</a></li>
+          <li><a href="index.html">Instagram</a></li>
+          <li><a href="index.html">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

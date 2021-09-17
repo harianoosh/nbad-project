@@ -1,0 +1,211 @@
+html {
+  overflow-y: scroll;
+}
+footer,
+.body {
+  overflow: scroll;
+}
+.branding {
+  width: auto;
+  height: 8vw;
+}
+footer {
+  width: 99vw;
+  height: 3vw;
+  background-color: #133e54;
+  border-radius: 15px;
+  color: #d1c172;
+  font-size: medium;
+}
+
+body > div > a > img {
+  margin: 15px;
+  width: 8.5vw;
+  height: 16vh;
+  border-radius: 10vh;
+  float: left;
+  border: 1px solid #d1c172;
+}
+
+body > div > a > img:hover {
+  border: 2px solid white;
+}
+
+body > div > div > h2 {
+  font-weight: normal;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #133e54;
+  border-radius: 15px;
+  width: 99vw;
+  height: 23vh;
+}
+
+body > div > div.navigationglobal > ul > li {
+  display: inline;
+  padding-right: 15px;
+}
+
+.leftify {
+  float: left;
+}
+.leftify > ul > li,
+.rightify > ul > li {
+  display: inline;
+  padding-right: 15px;
+}
+
+.rightify {
+  float: right;
+}
+
+body > div > div > h1,
+body > div > div > h2 {
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #d1c172;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body > div > div > h2 {
+  margin-top: 0px;
+}
+
+.navigationglobal {
+  width: 99vw;
+  height: 2vw;
+  text-align: right;
+}
+
+.navigationglobal > a {
+  float: left;
+  padding-left: 20px;
+}
+
+.navigationglobal > ul {
+  margin: 0px;
+}
+
+.body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 15px;
+  /* align-content: center; */
+  /* width: 1000px;
+  height: 1000px; */
+}
+
+.pagebody {
+  display: block;
+  width: 99vw;
+  height: 69vh;
+  overflow: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: #d1c172;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+a:hover {
+  color: gray;
+}
+
+.sitenavigation {
+  background-color: #133e54;
+  margin-top: 3px;
+  border-radius: 15px;
+  /* display: flex; */
+  height: 4vh;
+  padding-top: 8px;
+}
+.sitenavigation > a {
+  margin: 15px;
+}
+
+body > div > div.body > div > ul > li {
+  list-style-type: none;
+  text-align: left;
+}
+
+body > div > div.body > ul > ol > li {
+  text-align: left;
+}
+
+.container {
+  width: 40%;
+  height: 58vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.row {
+  text-align: left;
+}
+
+.row > h3 {
+  display: inline-block;
+}
+
+.row > form > input {
+  width: 10%;
+  float: right;
+  margin-top: 15px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container > div > img {
+  height: 75px;
+  width: 75px;
+}
+
+table {
+  width: 100%;
+}
+
+.form > tr > td > label {
+  text-align: left;
+  float: left;
+}
+
+.fieldname {
+  width: 30%;
+}
+
+.fieldvalue,
+input,
+textarea {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+.registerbtn {
+  margin: auto;
+  margin-top: 15px;
+  width: 20%;
+}
+
+.connectionimage {
+  width: 40%;
+}
+
+.connectioncontent {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.leftalign {
+  text-align: left;
+}
